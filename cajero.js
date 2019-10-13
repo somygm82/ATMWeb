@@ -1,6 +1,8 @@
+/*digitar cantidad a retirar y mostrar cantidad de billetes entregados - debo generar el saldo en el cajero*/
 var b = document.getElementById("extraer");
 b.addEventListener("click", entregarDinero);
 
+/* Entrega de dinero */
 function entregarDinero(){
   var dinero = 0 ;
   var total = 0;

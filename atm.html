@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cajero automatico</title>
+    <h1>Banco SM ATM</h1>
+  </head>
+  <body>
+    <p>
+      <img src="cajero.gif" />
+    </p>
+    <p>
+      Ingresa el monto, luego da click en extraer para retirar el dinero: <br />
+      <input type="number" id="dinero" />
+      <input type="button" value="Extraer" id="extraer" />
+    </p>
+    <p id="resultado"></p>
+    <canvas id="billetes" width="2000" height="285"></canvas><hr/>
+    <script src="cajero1.js">
+    </script>
+    <script src="cajero.js">
+    </script>
+  </body>
+</html>
